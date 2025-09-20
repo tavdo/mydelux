@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyDelux.GE - სერვისები</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-gray-800 text-white">
+    <div class="container mx-auto flex items-center justify-between px-4 py-3">
+      <div class="flex items-center space-x-2">
+        <img src="img/logo.png" alt="Logo" class="h-8 w-8 rounded" />
+        <span class="font-bold text-lg">MYDELUX.GE</span>
+      </div>
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-green-400">მთავარი</a>
+        <a href="services.html" class="hover:text-green-400">სერვისები</a>
+        <a href="contact.html" class="hover:text-green-400">კონტაქტი</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+             viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-gray-700">
+      <a href="index.html" class="block px-4 py-2 hover:bg-gray-600">მთავარი</a>
+      <a href="services.html" class="block px-4 py-2 hover:bg-gray-600">სერვისები</a>
+      <a href="contact.html" class="block px-4 py-2 hover:bg-gray-600">კონტაქტი</a>
+    </div>
+  </header>
+  <!-- Pricing -->
+  <section class="container mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
+    
+       <div class="bg-green-500 text-white rounded shadow-lg p-6 text-center transform -translate-y-2">
+      <h3 class="text-xl font-semibold">16 მოთამაშე</h3>
+      <p class="text-2xl mt-2">10₾</p>
+      <ul class="mt-4 space-y-2">
+        <li>FTP წვდომა</li>
+        <li>WEB პანელი</li>
+        <li>FPS 1000</li>
+      </ul>
+      <button class="mt-6 bg-white text-green-600 px-4 py-2 rounded hover:bg-gray-200">გაგრძელება</button>
+    </div>
+    
+    <div class="bg-white rounded shadow p-6 text-center">
+      <h3 class="text-xl font-semibold">20 მოთამაშე</h3>
+      <p class="text-green-500 text-2xl mt-2">12₾</p>
+      <ul class="text-gray-600 mt-4 space-y-2">
+        <li>FTP წვდომა</li>
+        <li>WEB პანელი</li>
+        <li>FPS 1000</li>
+      </ul>
+      <button class="mt-6 bg-gray-200 px-4 py-2 rounded hover:bg-gray-300">გაგრძელება</button>
+    </div>
+
+       <div class="bg-green-500 text-white rounded shadow-lg p-6 text-center transform -translate-y-2">
+      <h3 class="text-xl font-semibold">24 მოთამაშე</h3>
+      <p class="text-2xl mt-2">15₾</p>
+      <ul class="mt-4 space-y-2">
+        <li>FTP წვდომა</li>
+        <li>WEB პანელი</li>
+        <li>FPS 1000</li>
+      </ul>
+      <button class="mt-6 bg-white text-green-600 px-4 py-2 rounded hover:bg-gray-200">გაგრძელება</button>
+    </div>
+
+    <div class="bg-white rounded shadow p-6 text-center">
+      <h3 class="text-xl font-semibold">32 მოთამაშე</h3>
+      <p class="text-green-500 text-2xl mt-2">22₾</p>
+      <ul class="text-gray-600 mt-4 space-y-2">
+        <li>FTP წვდომა</li>
+        <li>WEB პანელი</li>
+        <li>FPS 1000</li>
+      </ul>
+      <button class="mt-6 bg-gray-200 px-4 py-2 rounded hover:bg-gray-300">გაგრძელება</button>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="container mx-auto px-4 py-12 grid md:grid-cols-3 gap-6">
+    <div class="bg-white p-6 rounded shadow">
+      <h4 class="font-semibold mb-2">ინფორმაცია</h4>
+      <p class="text-sm text-gray-600">სერვერები იმაზე იაფად ვიდრე ოდესმე და სადმე.</p>
+    </div>
+    <div class="bg-white p-6 rounded shadow">
+      <h4 class="font-semibold mb-2">ტექნიკური მხარე</h4>
+      <p class="text-sm text-gray-600">სერვერის შესაძენად გადადით კონტაქტებში და დაგვიკავშირდით ნომერზე ან მოგვწერეთ facebook-ზე.</p>
+    </div>
+    <div class="bg-white p-6 rounded shadow">
+      <h4 class="font-semibold mb-2">აიპი</h4>
+      <p class="text-sm text-gray-600">185.139.57.247.</p>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-10 mt-12">
+    <div class="container mx-auto px-4 grid md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-bold">MYDELUX.GE</h4>
+        <p class="text-sm mt-2"> © 2017 . ყველა უფლება დაცულია.</p>
+      </div>
+      <div>
+        <h4 class="font-bold">მენიუ</h4>
+        <p class="text-sm mt-2">მთავარი • სერვისები • კონტაქტი</p>
+      </div>
+      <div>
+        <h4 class="font-bold">კონტაქტი</h4>
+        <p class="text-sm mt-2">support@gmail.ge • +995 591 10 01 88</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
